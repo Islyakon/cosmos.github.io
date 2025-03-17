@@ -1,0 +1,444 @@
+@import url("https://fonts.googleapis.com/css2?family=Spectral+SC&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Spectral+SC:wght@600;700&display=swap");
+body {
+  margin: 0;
+  margin-top: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #183845;
+}
+
+.nav_link {
+  color: rgb(255, 255, 255);
+  font-size: 1.3vw;
+  text-decoration: none;
+  font-family: "Spectral SC";
+  font-weight: 500;
+  transition: 300ms;
+  border-bottom: 3px solid transparent;
+}
+
+.nav_link:hover {
+  padding-bottom: 10px;
+  border-bottom: 0.2vw solid #ffffff;
+}
+
+.navigation {
+  margin: 0vw 5vw;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  background-color: #183845;
+  align-items: center;
+  height: 10.5vh;
+  border-radius: 50px;
+  opacity: 0.9;
+}
+
+.biglink {
+  font-size: 3vw;
+  color: white;
+  font-family: "Spectral SC";
+}
+
+header {
+  padding-top: 1vw;
+  height: 100vh;
+  background-image: url("./images/2D\ solar\ system\ with\ a\ blue\ and\ turquoise\ color\ palette\ 1\ \(1\).png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 0;
+}
+
+.explore {
+  color: white;
+  font-size: 6.5vw;
+  font-family: "Fredoka";
+  font-weight: 700;
+  margin: 5vw 5vw;
+  width: 40vw;
+}
+
+.solar {
+  margin-top: 0;
+}
+
+.solar_header {
+  margin-top: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.solar_header h1 {
+  color: white;
+  font-family: "Fredoka";
+  font-size: 3.5vw;
+  width: 25vw;
+  text-align: center;
+}
+
+.solar_cards {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.solar_card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 0.2vw solid white;
+  padding: 2.2vw;
+  border-radius: 50px;
+  width: 16.5vw;
+}
+
+.card_img {
+  width: 15vw;
+}
+
+.card_title {
+  font-size: 1.7vw;
+  color: white;
+  font-family: "Spectral SC";
+}
+
+.card_btn {
+  padding: 0.7vw 2vw;
+  background-color: transparent;
+  border: 0.2vw solid white;
+  border-radius: 50px;
+}
+
+.card_link {
+  text-decoration: none;
+  color: white;
+  font-size: 1.5vw;
+  font-family: "Spectral SC";
+}
+
+.system_header {
+  margin-top: 0;
+  padding-top: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.system_header h1 {
+  color: white;
+  font-family: "Fredoka";
+  font-size: 3.5vw;
+  width: 25vw;
+  text-align: center;
+}
+
+.raz {
+  background-color: white;
+  height: 0.3vw;
+  width: 80%;
+  border-radius: 25px;
+  margin-top: 7.5vw;
+  margin-bottom: 2.5vw;
+}
+
+.razdel {
+  display: flex;
+  justify-content: center;
+}
+
+.all_cards {
+  margin-top: 3vw;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.button_right,
+.button_left {
+  padding: 30px;
+  width: 8vw;
+  height: 3.5vw;
+  background-color: transparent;
+  font-size: 1.5vw;
+  border: 0.18vw solid white;
+  color: white;
+  border-radius: 30px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.planet_card {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 50vw;
+  border: 0.25vw solid white;
+  padding: 70px;
+  border-radius: 60px;
+  height: 30vw;
+}
+
+.system_text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 25vw;
+}
+
+.system_text h1 {
+  text-align: center;
+  color: white;
+  font-family: "Fredoka";
+  font-size: 2.5vw;
+  width: 25vw;
+}
+
+.system_text p {
+  color: white;
+  font-family: "Spectral SC";
+  font-size: 1.5vw;
+}
+
+.system_img {
+  width: 15vw;
+}
+
+.facts_header h1 {
+  color: white;
+  font-family: "Fredoka";
+  font-size: 3.5vw;
+  width: 25vw;
+  text-align: center;
+}
+
+.facts_header {
+  display: flex;
+  justify-content: center;
+}
+
+.fact_card {
+  margin-top: 10vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 5vw;
+}
+
+.fact_img {
+  width: 20vw;
+}
+
+.fact_text p {
+  color: white;
+  font-family: "Spectral SC";
+  font-size: 2vw;
+}
+
+.fact_text {
+  width: 30vw;
+  border-top: 0.3vw solid #ffb56d;
+}
+
+.text_right {
+  text-align: right;
+}
+
+.practice_header {
+  display: flex;
+  justify-content: center;
+}
+
+.practice_header h1 {
+  color: white;
+  font-family: "Fredoka";
+  font-size: 3.5vw;
+  width: 25vw;
+  text-align: center;
+}
+
+.practice_cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 5vw;
+}
+
+.practice_card {
+  transition: 400ms;
+  background-color: transparent;
+  width: 23vw;
+  border-radius: 20px;
+  height: 12vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 0.2vw solid white;
+}
+
+.practice_text h1 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-family: "Fredoka";
+  font-size: 2.2vw;
+  font-weight: 700;
+}
+
+.btn {
+  transition: 300ms;
+  padding: 1vw;
+  background-color: transparent;
+  border: 0.2vw solid white;
+  border-radius: 24px;
+  font-size: 1vw;
+  font-family: "Spectral SC";
+  font-weight: 700;
+  cursor: pointer;
+  color: white;
+  margin-top: 1vw;
+}
+
+.practice_text p {
+  color: white;
+  padding: 0 2.5vw;
+  font-size: 1.55vw;
+  font-family: "Spectral SC";
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 1vw;
+}
+
+.hidden {
+  display: none;
+}
+
+.hhidden {
+  display: none;
+}
+
+.btnn {
+  transition: 300ms;
+  padding: 1vw;
+  background-color: transparent;
+  border: 0.2vw solid white;
+  border-radius: 24px;
+  font-size: 1vw;
+  font-family: "Spectral SC";
+  font-weight: 700;
+  cursor: pointer;
+  color: white;
+  margin-top: 1vw;
+}
+
+.btnnn {
+  transition: 300ms;
+  padding: 1vw;
+  background-color: transparent;
+  border: 0.2vw solid white;
+  border-radius: 24px;
+  font-size: 1vw;
+  font-family: "Spectral SC";
+  font-weight: 700;
+  cursor: pointer;
+  color: white;
+  margin-top: 1vw;
+}
+
+.hhhidden {
+  display: none;
+}
+
+.hhh {
+  display: none;
+}
+
+.first_header {
+  display: flex;
+  justify-content: center;
+}
+
+.first_header h1 {
+  color: white;
+  font-family: "Fredoka";
+  font-size: 3.5vw;
+  width: 25vw;
+  text-align: center;
+}
+
+.first_all {
+  margin-top: 5vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.first_text {
+  width: 30vw;
+  border-top: 0.3vw solid #ffb56d;
+}
+
+.first_text p {
+  font-size: 2vw;
+  font-family: "Spectral SC";
+  color: white;
+}
+
+.first_img {
+  width: 25vw;
+}
+
+.first_learn {
+  margin-top: 3vw;
+  display: block;
+  width: 10vw;
+  text-align: center;
+}
+
+footer {
+  margin-top: 10vw;
+  background-color: rgba(0, 0, 0, 0.404);
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  align-items: center;
+}
+
+.footer_text h1 {
+  font-size: 2vw;
+  font-family: "Fredoka";
+}
+
+.footer_text p {
+  font-size: 1.3vw;
+  font-family: "Spectral SC";
+}
+
+.footer_text {
+  width: 20vw;
+}
+
+.footer_contacts h1 {
+  font-size: 2vw;
+  font-family: "Fredoka";
+}
+
+.footer_contacts p {
+  font-size: 1.3vw;
+  font-family: "Spectral SC";
+}
+
+section {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+}
+
+section.visible {
+  opacity: 1;
+  transform: translateY(0);
+}   
